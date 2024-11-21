@@ -1,0 +1,67 @@
+.form-container {
+    max-width: 300px;
+    /* Increased width */
+    /* Increased margin for more space */
+    padding: 40px;
+    /* Increased padding for a roomier feel */
+    border-radius: 12px;
+    /* Slightly larger border radius */
+    background-color: #f7f7f7;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Larger shadow for depth */
+}
+
+.body-container {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    /* More space between form groups */
+}
+
+.form-label {
+    margin-bottom: 10px;
+    /* Larger margin between label and input */
+    /* Increased font size for labels */
+    font-weight: bold;
+    color: #555;
+}
+
+.form-input {
+    padding: 15px;
+    /* Larger padding */
+    /* Increased font size for inputs */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    /* Slightly larger border radius */
+}
+
+.form-input:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.7);
+    /* Larger shadow effect on focus */
+}
+
+.form-button {
+    padding: 15px;
+    /* Larger button padding */
+    font-size: 0.8rem;
+    /* Increased button text size */
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #4a14af;
+}

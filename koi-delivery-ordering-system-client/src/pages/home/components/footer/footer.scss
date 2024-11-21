@@ -1,0 +1,101 @@
+.footer {
+  background-color: #ced2da;
+  padding: 40px 20px;
+  box-shadow: 0px 0px 3px 3px #999999;
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-top h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-column {
+    flex-basis: 20%;
+    margin-bottom: 20px;
+  }
+
+  .footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .footer-column p,
+  .footer-column ul,
+  .footer-column a {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons image {
+    max-width: 5px;
+    height: 5px;
+  }
+
+  .download-links a img {
+    max-width: 120px;
+    margin-right: 10px;
+  }
+
+  .subscribe-form {
+    display: flex;
+  }
+
+  .subscribe-form input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .subscribe-form button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .subscribe-form button:hover {
+    background-color: #333;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+    color: #999;
+  }
+}

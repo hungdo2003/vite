@@ -1,0 +1,26 @@
+.customer-header-container {
+    background-color: rgb(135, 182, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vw;
+  
+    .logo{
+      width: 20vw;
+      margin-left: 3%;
+    }
+  
+    .function {
+      width: 70%;
+      color: white;
+      margin-left: 20%;
+  
+      button {
+        border-radius: 20px;
+        margin-right: 5%;
+        width: 15%;
+       
+      }
+    }
+  }
+  

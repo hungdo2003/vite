@@ -1,0 +1,42 @@
+.sidebar-body-delivery-staff {
+  border-radius: 25px;
+  border: 2px solid skyblue;
+  background-color: #c3f4fd;
+  padding: 20px;
+  margin: 8% 0 5% 5%;
+  width: 35%;
+  max-width: 15vw;
+  min-width: 15vw;
+  max-height: 100vh;
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .profile {
+    margin: 5%;
+  }
+
+
+  .list-function {
+    margin-top: 15%;
+
+    .button {
+      margin-bottom: 5%;
+      background-color: rgb(255, 255, 255);
+      color: #151f5f;
+      border-radius: 15px;
+    }
+  }
+}

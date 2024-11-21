@@ -1,0 +1,21 @@
+# Ignore Maven and Gradle files
+/.mvn
+/.gradle
+/mvnw
+/mvnw.cmd
+/gradlew
+/gradlew.bat
+
+# Ignore IDE and project files
+/.idea
+/.classpath
+/.project
+/.settings
+*.iml
+
+# Ignore log files
+*.log
+
+# Ignore Docker files
+Dockerfile
+.dockerignore

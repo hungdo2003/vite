@@ -1,0 +1,81 @@
+.header-container {
+  position: fixed;
+  width: 100vw;
+  z-index: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8cbdf6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  // margin: -10px;
+
+  .logo {
+    margin-left: 10%;
+    width: 20%;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .navigator:hover {
+    cursor: pointer;
+  }
+
+  .dashboard {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    gap: 100px;
+    color: white;
+    margin-left: 10%;
+    width: 60%;
+  }
+
+  .dashboard button {
+    color: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 100px;
+  }
+
+  .dashboard button:hover {
+    background-color: #70b1fc;
+    color: black;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+
+  .right {
+    margin-right: 1%;
+  }
+
+  .header-right button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .header-right button:hover {
+    background-color: white;
+    color: black;
+  }
+  .welcome-section {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-left: 20px;
+    margin-left: 23%;
+  }
+}

@@ -1,0 +1,44 @@
+Customer Account:
+nam.vu@email.com
+12345678
+
+Sales Staff Account:
+mai.nguyen@examplemail.com
+123
+
+Delivery Staff Account:
+hai.nam.phan@examplemail.com
+123
+
+Manager Account:
+admin@koiapp.com
+12345678
+
+Order Creation:
+Phạm Văn Tốt
+Cá tốt
+312a An Thạnh 73, An Thạnh, Thuận An, Bình Dương, Vietnam
+189 Hương Lộ 9, Tân Bình, Vĩnh Cửu, Đồng Nai, Vietnam
+trieuttse184410@fpt.edu.vn
+079-474-4447
+
+Fish Information:
+Karada
+2
+20
+2000
+200000000
+
+Storage Information:
+Chi nhánh Bình Dương
+135 Đx 84, Định Hoà, Thủ Dầu Một, Bình Dương, Vietnam
+
+Delivery Staff:
+Trần Đăng Khoa
+ulquiorra10203@gmail.com
+0746372842
+
+Sales Staff:
+Trương Trung Tốt
+trieupqt2004@gmail.com
+0983728913

@@ -1,0 +1,113 @@
+.all-news-container {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.all-news-container h1, .all-news-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Define card width */
+  grid-gap: 20px;
+}
+
+.news-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+  transform: translateY(-5px); /* Hover effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.news-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.news-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+  transition: color 0.2s ease;
+}
+
+.news-title:hover {
+  color: #0056b3;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.detail-button button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.detail-button button:hover {
+  background-color: #0056b3;
+}
+
+.card-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.delete-button button:hover {
+  background-color: #b30000;
+}
+
+.card-view-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-view-more button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.card-view-more button:hover {
+  background-color: #0056b3;
+}

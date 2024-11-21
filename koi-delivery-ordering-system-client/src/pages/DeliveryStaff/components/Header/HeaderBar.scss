@@ -1,0 +1,20 @@
+.headerbar-container {
+  display: flex;  
+
+  .logo {
+    width: 20vw;
+    margin: 1% 0 2% 3%;
+  }
+
+  .headerbar-left{
+    width: 40vw;
+    margin: 2% 0 2% 10%;
+
+    button{
+        font-size: 1.2em;
+        margin-left: 5%;
+        border-radius: 20px;
+        width: 20%;
+    }
+  }
+}

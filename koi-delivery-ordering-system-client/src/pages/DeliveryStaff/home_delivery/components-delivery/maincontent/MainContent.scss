@@ -1,0 +1,35 @@
+.orders-container {
+  margin-left: 2%;
+  font-size: 1.5em;
+  color: rgb(9, 38, 118);
+
+  .order-data {
+    display: flex;
+    justify-content: space-around; // Giúp hai bảng có khoảng cách đồng đều
+    padding: 20px;
+    background-color: #f9f9f9; // Màu nền nhạt để bảng nổi bật
+
+    .orders-accepted,
+    .orders-confirmed {
+      width: 45%; // Giới hạn chiều rộng cho hai bảng để trông gọn gàng hơn
+      background-color: #e0eff9; // Màu nền trắng cho bảng
+      padding: 20px;
+      border-radius: 8px; // Bo góc cho bảng
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Hiệu ứng bóng đổ nhẹ cho bảng
+      margin: 10px; // Tạo khoảng cách giữa hai bảng
+
+      h2 {
+        color: #1919a5;
+        font-size: 1em;
+        margin-bottom: 15px; // Khoảng cách dưới tiêu đề
+        text-align: center; // Căn giữa tiêu đề bảng
+        border-bottom: 2px solid #2525a7; // Đường viền dưới tiêu đề
+        padding-bottom: 10px;
+      }
+
+      .ant-table {
+        margin-top: 20px;
+      }
+    }
+  }
+}

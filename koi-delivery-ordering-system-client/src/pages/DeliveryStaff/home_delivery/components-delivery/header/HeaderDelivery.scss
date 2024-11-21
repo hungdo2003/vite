@@ -1,0 +1,56 @@
+.header-delivery {
+  display: flex;
+  margin-top: 40px;
+  height: 5%;
+
+  .logo{
+    width: 20vw;
+    margin-left: 1%;
+  }
+
+  .header-delivery-left {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .function{
+    width: 60%;
+    margin-left: 3%;
+  }
+
+  .function button {
+    background-color: transparent;
+    color: rgb(48, 70, 170);
+    padding: 10px 20px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+    font-size: 1em;
+  }
+
+  .function button:hover {
+    cursor: pointer;
+    background-color: #c3f4fd;
+    color: #01428e;
+    border-radius: 20px;
+  }
+
+  .logout-delivery{
+    margin-top: 1.2%;
+  }
+
+  .logout-delivery button {
+    background-color: #558ac6;
+    color: white;
+    border-radius: 20px;
+    width: 6vw;
+    height: 4vh;
+    font-size: 1.2em;
+  }
+
+  .logout-delivery button:hover {
+    background-color: #d5e6fa;
+    color: black;
+  }
+
+}

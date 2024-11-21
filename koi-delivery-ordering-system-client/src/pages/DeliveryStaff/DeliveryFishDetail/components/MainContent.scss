@@ -1,0 +1,50 @@
+.main-content-license-delivery {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  /* Slider section styling */
+  .slider-container {
+    width: 45vw;
+    height: 40vh;
+    background-color: #C3F4FD;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .slider-container {
+    max-width: 100%;
+    height: auto;
+    min-height: 400px; /* Ensure there's enough space for the images */
+    overflow: hidden;
+    background-color: #C3F4FD;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 3%;
+  }
+  .ant-typography-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  .link {
+    margin: 20px 0;
+  }
+}
+
+
+
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+  max-height: 400px; /* Adjust height */
+  width: auto; /* Ensure images fit within the slider */
+}

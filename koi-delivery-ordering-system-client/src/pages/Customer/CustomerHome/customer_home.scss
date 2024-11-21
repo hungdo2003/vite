@@ -1,0 +1,42 @@
+.customer-home-order-list {
+    margin: 25px 60px 60px 60px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .order-box {
+      padding: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      background-color: #c3f4fd;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center; 
+  
+      .order-main-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%; 
+  
+        .order-text-info {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+  
+          .icon-group {
+            display: flex;
+            gap: 2px;
+          }
+        }
+      }
+  
+      .button-icon:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  

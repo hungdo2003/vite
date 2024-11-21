@@ -1,0 +1,24 @@
+.page404-container {
+    background-color: #d1ecf1;
+    // margin: -10px;
+
+    .logo {
+        width: 20%;
+        margin-left: 2%;
+    }
+
+    .main-content {
+        margin: 0 0 1% 35%;
+
+        .content1{
+            font-size: 8em;
+            margin-left: 15%;
+            color: rgb(211, 3, 3);
+        }
+
+        .content2{
+            font-size: 3em;
+            color: rgb(3, 56, 171);
+        }
+    }
+}

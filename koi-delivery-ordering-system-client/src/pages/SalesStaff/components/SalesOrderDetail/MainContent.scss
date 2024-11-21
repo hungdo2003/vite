@@ -1,0 +1,74 @@
+.sales-order-details-container {
+  padding: 20px;
+  max-width: 1200px; /* Giới hạn chiều rộng */
+  margin: 0 auto;
+  word-wrap: break-word; /* Đảm bảo từ sẽ xuống hàng khi quá dài */
+  overflow-wrap: break-word; /* Tương tự nhưng hỗ trợ thêm nhiều trình duyệt */
+
+  .order-details {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%; /* Chiều rộng cố định cho order details */
+    background-color: #C3F4FD;
+    box-sizing: border-box; /* Đảm bảo padding không làm vượt quá chiều rộng */
+  }
+
+  .order-name-detail {
+    display: flex;
+    justify-content: center;
+    background-color: #C3F4FD;
+    padding: 25px 0;
+    border-radius: 12px;
+    max-width: 30vw;
+    margin: 0 auto 5% auto;
+  }
+
+  .details-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .details-column {
+    flex: 1;
+    padding: 10px;
+    white-space: normal;
+  }
+
+  .details-column p {
+    margin: 5px 0 30px 7px;
+  }
+
+  .view-fish {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin: 0 20px 20px 20px;
+  }
+
+  .view-fish-btn {
+    background-color: #C3F4FD;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .order-description {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    max-width: 55vw;
+  }
+
+  .google-map {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
